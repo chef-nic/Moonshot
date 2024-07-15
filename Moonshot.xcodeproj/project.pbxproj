@@ -11,6 +11,16 @@
 		CD9745462C4331FB0094C072 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9745452C4331FB0094C072 /* ContentView.swift */; };
 		CD9745482C4331FC0094C072 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD9745472C4331FC0094C072 /* Assets.xcassets */; };
 		CD97454B2C4331FC0094C072 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD97454A2C4331FC0094C072 /* Preview Assets.xcassets */; };
+		CDA1FEE52C44B40800C10AC4 /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = CDA1FEE32C44B40800C10AC4 /* astronauts.json */; };
+		CDA1FEE62C44B40800C10AC4 /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = CDA1FEE42C44B40800C10AC4 /* missions.json */; };
+		CDA1FEE82C44B48000C10AC4 /* Astronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA1FEE72C44B48000C10AC4 /* Astronaut.swift */; };
+		CDA1FEEA2C44B55C00C10AC4 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA1FEE92C44B55C00C10AC4 /* Bundle-Decodable.swift */; };
+		CDC5D4132C4589010093CAF8 /* AstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC5D4122C4589010093CAF8 /* AstronautView.swift */; };
+		CDC5D4152C45960E0093CAF8 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC5D4142C45960E0093CAF8 /* ListView.swift */; };
+		CDC5D4172C45979A0093CAF8 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC5D4162C45979A0093CAF8 /* GridView.swift */; };
+		CDDFCF9F2C44B83A00B52104 /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDFCF9E2C44B83A00B52104 /* Mission.swift */; };
+		CDDFCFA12C44BEEF00B52104 /* Color-Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDFCFA02C44BEEF00B52104 /* Color-Theme.swift */; };
+		CDDFCFA32C44C22900B52104 /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDFCFA22C44C22900B52104 /* MissionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +29,16 @@
 		CD9745452C4331FB0094C072 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CD9745472C4331FC0094C072 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD97454A2C4331FC0094C072 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CDA1FEE32C44B40800C10AC4 /* astronauts.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = astronauts.json; sourceTree = "<group>"; };
+		CDA1FEE42C44B40800C10AC4 /* missions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
+		CDA1FEE72C44B48000C10AC4 /* Astronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut.swift; sourceTree = "<group>"; };
+		CDA1FEE92C44B55C00C10AC4 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		CDC5D4122C4589010093CAF8 /* AstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = "<group>"; };
+		CDC5D4142C45960E0093CAF8 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		CDC5D4162C45979A0093CAF8 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		CDDFCF9E2C44B83A00B52104 /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
+		CDDFCFA02C44BEEF00B52104 /* Color-Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Theme.swift"; sourceTree = "<group>"; };
+		CDDFCFA22C44C22900B52104 /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +73,16 @@
 			children = (
 				CD9745432C4331FB0094C072 /* MoonshotApp.swift */,
 				CD9745452C4331FB0094C072 /* ContentView.swift */,
+				CDC5D4162C45979A0093CAF8 /* GridView.swift */,
+				CDC5D4142C45960E0093CAF8 /* ListView.swift */,
+				CDDFCFA22C44C22900B52104 /* MissionView.swift */,
+				CDC5D4122C4589010093CAF8 /* AstronautView.swift */,
+				CDA1FEE32C44B40800C10AC4 /* astronauts.json */,
+				CDA1FEE72C44B48000C10AC4 /* Astronaut.swift */,
+				CDA1FEE92C44B55C00C10AC4 /* Bundle-Decodable.swift */,
+				CDDFCF9E2C44B83A00B52104 /* Mission.swift */,
+				CDA1FEE42C44B40800C10AC4 /* missions.json */,
+				CDDFCFA02C44BEEF00B52104 /* Color-Theme.swift */,
 				CD9745472C4331FC0094C072 /* Assets.xcassets */,
 				CD9745492C4331FC0094C072 /* Preview Content */,
 			);
@@ -125,6 +155,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDA1FEE52C44B40800C10AC4 /* astronauts.json in Resources */,
+				CDA1FEE62C44B40800C10AC4 /* missions.json in Resources */,
 				CD97454B2C4331FC0094C072 /* Preview Assets.xcassets in Resources */,
 				CD9745482C4331FC0094C072 /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +169,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDDFCFA32C44C22900B52104 /* MissionView.swift in Sources */,
+				CDA1FEE82C44B48000C10AC4 /* Astronaut.swift in Sources */,
+				CDC5D4132C4589010093CAF8 /* AstronautView.swift in Sources */,
+				CDDFCFA12C44BEEF00B52104 /* Color-Theme.swift in Sources */,
 				CD9745462C4331FB0094C072 /* ContentView.swift in Sources */,
 				CD9745442C4331FB0094C072 /* MoonshotApp.swift in Sources */,
+				CDA1FEEA2C44B55C00C10AC4 /* Bundle-Decodable.swift in Sources */,
+				CDDFCF9F2C44B83A00B52104 /* Mission.swift in Sources */,
+				CDC5D4172C45979A0093CAF8 /* GridView.swift in Sources */,
+				CDC5D4152C45960E0093CAF8 /* ListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

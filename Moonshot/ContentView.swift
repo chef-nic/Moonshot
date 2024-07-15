@@ -8,17 +8,39 @@
 import SwiftUI
 
 struct ContentView: View {
+    // Type annotation so Swift knows the Type (because decode uses a generic: <T>)
+    let astronauts: [String: Astronaut] = Bundle.main.decode("astronauts.json")
+    let missions: [Mission] = Bundle.main.decode("missions.json")
+    
+    @AppStorage("showingGrid") private var showGrid: Bool = true
+    private var toolbarButton: String {
+        showGrid ? "List" : "Grid"
+    }
+    
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack {
+            Group {
+                if showGrid {
+                    GridView(missions: missions, astronauts: astronauts)
+                } else {
+                    ListView(astronauts: astronauts, missions: missions)
+                }
+            }
+            .navigationTitle("Moonshot")
+            .background(.darkBackground)
+            .preferredColorScheme(.dark)
+            .toolbar {
+                Button(toolbarButton) {
+                    showGrid.toggle()
+                }
+            }
         }
-        .padding()
     }
 }
 
 #Preview {
     ContentView()
 }
+
+
