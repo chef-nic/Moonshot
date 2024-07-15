@@ -13,9 +13,8 @@ struct ListView: View {
     
     var body: some View {
         List(missions) { mission in
-            NavigationLink {
-                MissionView(mission: mission, astronauts: astronauts)
-            } label: {
+            NavigationLink(value: mission) {
+                
                 HStack {
                     Image(mission.image)
                         .resizable()
