@@ -21,6 +21,7 @@ struct ListView: View {
                         .scaledToFit()
                         .frame(width: 40, height: 40)
                         .padding()
+                        .accessibilityLabel("The mission badge for \(mission.displayName)")
                     
                     VStack(alignment: .leading) {
                         Text(mission.displayName)

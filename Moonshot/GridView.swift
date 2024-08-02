@@ -28,6 +28,7 @@ struct GridView: View {
                                 .scaledToFit()
                                 .frame(width: 100, height: 100)
                                 .padding()
+                                .accessibilityLabel("The mission badge for \(mission.displayName)")
                             
                             VStack {
                                 Text(mission.displayName)
